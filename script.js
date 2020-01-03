@@ -23,6 +23,7 @@ function handleCheck(e) {
   }
   
   lastChecked = this;
+  console.log('lastChecked', lastChecked)
 }
 
 checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck)); 
