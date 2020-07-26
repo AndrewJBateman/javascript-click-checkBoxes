@@ -1,11 +1,10 @@
-# Javascript Click Checkboxes
+# :zap: Javascript Click Checkboxes
 
 Wes Bos Youtube Tutorial: [JS Checkbox Challenge! #JavaScript30 10/30](https://www.youtube.com/watch?v=RIPYsKx1iiU&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=11&t=0s).
 
-
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,23 +15,23 @@ Wes Bos Youtube Tutorial: [JS Checkbox Challenge! #JavaScript30 10/30](https://w
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Tutorial Code using javascript to select/deselect checkboxes.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/check.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * Ran in Google Chrome browser with: [Javascript engine V8 7.9.317.32 for Windows (x64)](https://v8.dev/).
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * Function to check 'in between' boxes if between selected boxes
 
@@ -57,20 +56,19 @@ function handleCheck(e) {
   }
 ```
 
-## Features
+## :cool: Features
 
 *  Check boxes can be check/unchecked manually.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: Nothing.
 
-## Inspiration
+## :clap: Inspiration
 
 * Wes Bos Youtube Tutorial: [JS Checkbox Challenge! #JavaScript30 10/30](https://www.youtube.com/watch?v=RIPYsKx1iiU&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=11&t=0s).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
