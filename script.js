@@ -9,21 +9,23 @@ function handleCheck(e) {
   let inBetween = false;
   if (e.shiftKey && this.checked) {
     //loop over every single checkbox
-    checkboxes.forEach(checkbox => {
-      console.log(checkbox);
-      if (checkbox === this || checkbox === lastChecked){
+    checkboxes.forEach((checkbox) => {
+      console.log('checkbox', checkbox);
+      if (checkbox === this || checkbox === lastChecked) {
         inBetween = !inBetween;
-        console.log('checking');
+        console.log("checking");
       }
-      
+
       if (inBetween) {
-        checkbox.checked = true;    
+        checkbox.checked = true;
       }
     });
   }
-  
+
   lastChecked = this;
-  console.log('lastChecked', lastChecked)
+  console.log("lastChecked", lastChecked);
 }
 
-checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck)); 
+checkboxes.forEach((checkbox) =>
+  checkbox.addEventListener("click", handleCheck)
+);
